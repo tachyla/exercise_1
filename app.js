@@ -1,5 +1,5 @@
-function whoAmI() {
-	console.log("My name is Tk and Im 29 years old.");
+function whoAmI(name, age) {
+	console.log(`My name is ${name} and I'm ${age} years old.`);
 }
 
-whoAmI();
+whoAmI("Chris", "29");
